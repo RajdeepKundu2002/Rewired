@@ -11,10 +11,10 @@ import {
 } from "react-router-dom";
 function App() {
   return (
-    <div style={{ backgroundImage: `url(${bgImg})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', height: 'auto' }}>
+    <div style={{ backgroundImage: `url(${bgImg})`, backgroundPosition: 'center', position:"fixed" , backgroundSize: 'cover', minHeight:'100%', minWidth:'100%' }}>
       <Router>
         <Navbar />
-        <div className="container my-3">
+        <div className="container my-5">
           <Switch>
             <Route exact path="/">
               <Home />
@@ -32,6 +32,6 @@ function App() {
         </div>
       </Router>
     </div>
-  );  
+  );
 }
 export default App;
