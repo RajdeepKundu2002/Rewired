@@ -1,0 +1,33 @@
+.section{
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .about-heading {
+    font-weight: bold;
+  }
+  .event {
+    margin-bottom: 40px;
+  }
+  
+  
+  .about .content {
+    background-color: inherit;
+    padding: 40px;
+  }
+  
+  .about h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #ff0000;
+  }
+  
+  
+  .about p {
+    color: #000000;
+    margin: 15px 0 30px 0;
+    line-height: 24px;
+    transition: 0s;
+    opacity: 1;
+    font-weight: normal;
+    font-size: 20px;
+  }
