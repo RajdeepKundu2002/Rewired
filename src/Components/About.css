@@ -1,27 +1,17 @@
-.section {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
 .about-heading {
   font-weight: bold;
 }
-.event {
-  margin-bottom: 10px;
-}
 .about .content {
   background-color: inherit;
-  padding: 20px;
 }
 .about h3 {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 700;
   color: #ff0000;
 }
 .about p {
   color: #000000;
-  margin: 10px 0 40px 0;
   line-height: 24px;
-  transition: 0s;
   opacity: 1;
   font-weight: normal;
   font-size: 20px;
